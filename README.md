@@ -1,7 +1,7 @@
 # ClenchMTS
 
 ClenchMTS is mern with typescript starter template.
-It's A package of TypeScript, React-router-dom, React-Toastify, TailwindCSS, Vite.
+It's A package of TypeScript, React-router-dom, React-Toastify, TailwindCSS, Vite, Node.js, Express.js.
 You can start from home page.
 
 ## Usase
