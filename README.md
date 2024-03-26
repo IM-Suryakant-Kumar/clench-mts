@@ -14,3 +14,4 @@ You can start from home page.
     ```
 2. You can remove .git file
 3. Deploy the Client and Server seprately
+4. Don't forgot `npm run build` before deploy. 
