@@ -1,5 +1,5 @@
 import "express-async-errors";
-import { config } from "dotenv";
+import "dotenv/config";
 import express from "express";
 import helmet from "helmet";
 import morgan from "morgan";
@@ -8,11 +8,10 @@ import cookieParser from "cookie-parser";
 import { errorHandlerMiddleware, notFoundMiddleware } from "./middlewares";
 
 const app = express();
-config();
 
 // constant
-const CLIENT_URL: string = process.env.CLIENT_URL;
-const PORT: number = Number(process.env.PORT) || 4000
+const CLIENT_URL = process.env.CLIENT_URL;
+const PORT = Number(process.env.PORT) || 4000
 
 // middlewares
 app.use(express.json());
